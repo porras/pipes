@@ -2,15 +2,14 @@ require 'forwardable'
 
 class MyPipe
   extend Forwardable
-  def_delegators :@queue, :<<
+  def_delegators :@queue, :<<, :pop
   def_delegators :@thread, :join
-  attr_reader :queue
 
   def initialize(input = nil)
     @queue = Queue.new
     @thread = Thread.new do
       if input
-        while l = input.queue.pop
+        while l = input.pop
           yield(self, l)
         end
       else
