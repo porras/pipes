@@ -1,6 +1,6 @@
 # Understanding Unix pipes with Ruby
 
-Examples from my talk about this topic in [Conferencia Rails 2016](http://conferenciaror.es/) in Madrid on October 2016. The slides I used are here:
+Examples from my talk about this topic in [Conferencia Rails 2016](http://conferenciaror.es/) in Madrid on October 2016, and also (with a couple of changes here and there) in [RUG::B](http://www.rug-b.de/) Berlin on November 2017. The slides I used are here:
 
 [![slides](https://speakerd.s3.amazonaws.com/presentations/68088abef0804f53b21c88f7da2484ab/preview_slide_4.jpg)](https://speakerdeck.com/porras/understanding-unix-pipes-with-ruby)
 
